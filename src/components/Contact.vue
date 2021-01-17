@@ -5,11 +5,11 @@
       <div class="contact-main-section">
         <div class="contact-phone">
           <i class="fas fa-phone-alt"></i>
-          <p>312-578-4791</p>
+          <p>312-555-3333</p>
         </div>
         <div class="contact-email">
           <i class="far fa-envelope"></i>
-          <p>flux@prueba.com</p>
+          <p>info@marca.com</p>
         </div>
       </div>
     </address>

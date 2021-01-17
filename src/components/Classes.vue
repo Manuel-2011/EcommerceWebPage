@@ -1,6 +1,6 @@
 <template>
     <div id="class-component">
-        <h2 class="main-header">TIPOS DE ENTRENAMIENTO</h2>
+        <h2 class="main-header">VENTAJAS</h2>
         <main>
         <div v-if="windowWidth<768" class="classes-carousel">
             <v-carousel 
@@ -120,25 +120,25 @@ export default {
       windowWidth: 0,
       content: [
             {
-                title: 'Clase wkerfbn',
+                title: 'Ventaja 1',
                 image: "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
                 summary: "1,000 miles of wonder",
                 content: "I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.",
             },
             {
-                title: 'Kids',
+                title: 'Ventaja 2',
                 image: "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
                 summary: "1,000 miles of wonder",
                 content: "I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.",
             },
             {
-                title: 'Clase wkerfbn',
+                title: 'Ventaja 3',
                 image: "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
                 summary: "1,000 miles of wonder",
                 content: "I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.",
             },
             {
-                title: 'Clase wkerfbn',
+                title: 'Ventaja 4',
                 image: "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
                 summary: "1,000 miles of wonder",
                 content: "I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.",

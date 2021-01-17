@@ -1,12 +1,14 @@
 <template>
   <div id="home-component">
-    <h1>FLUX ACADEMY</h1>
-    <div class="subtitle">
-      <div class="point"></div>
-      <h4>KEEP MOVING</h4>
-      <div class="point"></div>
+    <div class="layer">
+        <h1>NOMBRE MARCA</h1>
+        <div class="subtitle">
+        <div class="point"></div>
+        <h4>KEEP MOVING</h4>
+        <div class="point"></div>
+        </div>
+        <button id="principal-button">IR A PRODUCTOS</button>
     </div>
-    <button id="principal-button">IR A PRODUCTOS</button>
   </div>
 </template>
 
@@ -16,15 +18,20 @@
         width: 100%;
         height: 100vh;
         padding-top: 1px;
-        background-image: url('../assets/images/parkour-wallpaper.jpg');
+        background-image: url('../assets/images/background-wallpaper.jpg');
         background-size: cover;
+        @media (max-width: $breakpoint-columns) {
+            font-size: 5px;
+        }
+    }
+    .layer {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.2);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        @media (max-width: $breakpoint-columns) {
-            font-size: 5px;
-        }
     }
     /* Titutlo principal */
     h1 {

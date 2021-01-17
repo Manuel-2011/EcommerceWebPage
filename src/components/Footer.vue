@@ -2,9 +2,9 @@
   <footer>
     <div class="footer-mainSection">
       <div class="footer-leftSection">
-        <p class="footer-title">@FLUXACADEMY</p>
+        <p class="footer-title">@MARCA</p>
         <p>
-          @FLUXACADEMY Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a
+          @MARCA Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a
           viverra magna. Maecenas vitae est nunc. Phasellus vitae odio posuere, cursus
           purus id, faucibus metus. Cras posuere porttitor elit. Etiam dignissim, purus
           nec suscipit pretium.
@@ -13,11 +13,11 @@
       <div class="footer-middleSection">
         <p class="footer-title">CONTÁCTANOS</p>
         <p>
-          TELÉFONO: +57 312-578-4791 <br />
-          EMAIL: flux@prueba.com <br />WHATSAPP:
+          TELÉFONO: +57 312-555-3333 <br />
+          EMAIL: info@marca.com <br />WHATSAPP:
           <a
             class="footer-whatsAppLink"
-            href="https://api.whatsapp.com/send?phone=+57 312 578 4791&text=Hola%20me%20gustaría%20saber%20más"
+            href="https://api.whatsapp.com/send?phone=+57 312 555 3333&text=Hola%20me%20gustaría%20saber%20más"
           >
             Click aquí
           </a>
@@ -26,30 +26,23 @@
       <div class="footer-rightSection">
         <p class="footer-title">Siguenos</p>
         <div class="footer-icons">
-          <a href="https://www.facebook.com/pg/Flux-academy-103864354337166/posts/"
+          <a href="#"
             ><i class="fab fa-facebook fa-lg"></i
           ></a>
-          <a href="https://www.instagram.com/flux.parkour/">
+          <a href="#">
             <i class="fab fa-instagram fa-lg"></i>
           </a>
-          <a href="https://www.youtube.com/user/PlusParkour">
+          <a href="#">
             <i class="fab fa-youtube fa-lg"></i>
           </a>
-          <a href="https://github.com/monotera/FluxWebPage">
+          <a href="https://github.com/Manuel-2011/EcommerceWebPage">
             <i class="fab fa-github fa-lg"></i>
           </a>
         </div>
       </div>
     </div>
     <p class="footer-copyRight">
-      2020 Flux Academy by
-      <a class="footer-copyRightLink" href="https://github.com/Manuel-2011"
-        >Manuel Mosquera</a
-      >
-      y
-      <a class="footer-copyRightLink" href="https://github.com/monotera"
-        >Nelson Mosquera</a
-      >
+      2020 &copy; Nombre Marca
     </p>
   </footer>
 </template>

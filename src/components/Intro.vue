@@ -1,7 +1,7 @@
 <template>
   <div id="intro">
     <section id="intro-parkour">
-      <h2 class="section-header">¿Qué es parkour?</h2>
+      <h2 class="section-header">¿Quiénes somos?</h2>
       <p class="section-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet
         finibus sem, a laoreet quam. Vivamus non orci vel eros bibendum gravida
@@ -12,7 +12,7 @@
       </p>
       <iframe
         width="556"
-        src="https://www.youtube.com/embed/mP4hI9UB0Og"
+        src="https://www.youtube.com/embed/ADj7Nyyh8IM"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -29,7 +29,7 @@
         </p>
       </section>
       <section id="classes">
-        <h2 class="section-header">Clases</h2>
+        <h2 class="section-header">Productos</h2>
         <p class="section-body">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet
           finibus sem, a laoreet quam. Vivamus non orci vel eros bibendum

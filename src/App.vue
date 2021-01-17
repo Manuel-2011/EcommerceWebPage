@@ -4,7 +4,6 @@
     <HomeComponent />
     <Intro />
     <Classes />
-    <Gallery />
     <Contact />
     <Footer />
   </v-app>
@@ -17,14 +16,12 @@ import Intro from "./components/Intro"
 import Classes from "./components/Classes"
 import Header from "./components/Header.vue";
 import Contact from "./components/Contact";
-import Gallery from "./components/Gallery.vue";
 
 export default {
   components: {
     Footer,
     HomeComponent,
     Header,
-    Gallery,
     Intro,
     Classes,
     Contact,

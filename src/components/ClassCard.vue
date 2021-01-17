@@ -21,10 +21,10 @@
         <v-btn
             id="button-reserve"
             text
-            :href="'https://api.whatsapp.com/send?phone=+57 312 578 4791&text=Hola!%20Me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20clase%20de%20' + title"
+            :href="'https://api.whatsapp.com/send?phone=+57 312 555 3333&text=Hola!%20Me%20gustar%C3%ADa%20tener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos%20'"
             target="_blank"
         >
-            RESERVA
+            COMPRAR
         </v-btn>
 
         <v-spacer></v-spacer>

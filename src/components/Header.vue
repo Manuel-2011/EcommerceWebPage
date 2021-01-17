@@ -1,7 +1,7 @@
 <template>
   <header class="header-wrapper" :class="{ scrolledOpacity: isScrolled }">
     <nav class="header-wrapper-nav" :class="{ scrolledHeigth: isScrolled }">
-      <h1 class="header-logo">Flux Academy</h1>
+      <h1 class="header-logo">Nombre Marca</h1>
       <ul class="header-wrapper-ul" :class="{ navActive: isOpen }">
         <li>
           <a @click="activate(1)" :class="{ active: active_el == 1 }" href="#intro"
@@ -13,17 +13,10 @@
             @click="activate(2)"
             :class="{ active: active_el == 2 }"
             href="#class-component"
-            >Clases</a
+            >Ventajas</a
           >
         </li>
-        <li>
-          <a
-            @click="activate(3)"
-            :class="{ active: active_el == 3 }"
-            href="#gallery-component"
-            >Galería</a
-          >
-        </li>
+        
         <li>
           <a
             @click="activate(4)"
@@ -36,13 +29,13 @@
           <a><i class="fas fa-shopping-cart fa-lg"></i></a>
         </li>
         <li v-if="windowWidth <= 768" class="header-icons">
-          <a href="https://www.facebook.com/pg/Flux-academy-103864354337166/posts/"
+          <a href="#"
             ><i class="fab fa-facebook fa-lg"></i
           ></a>
-          <a href="https://www.instagram.com/flux.parkour/">
+          <a href="#">
             <i class="fab fa-instagram fa-lg"></i>
           </a>
-          <a href="https://www.youtube.com/user/PlusParkour">
+          <a href="#">
             <i class="fab fa-youtube fa-lg"></i>
           </a>
         </li>
